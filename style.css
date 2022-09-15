@@ -13,7 +13,7 @@ body {
 
 body {
   display: grid;
-  grid-template-rows: 20% 75% 5%;
+  grid-template-rows: 5% 90% 5%;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -37,4 +37,16 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main #drawing-board {
+  border: 1pt solid black;
+  width: 600px;
+  height: 600px;
 }
